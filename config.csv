@@ -1,0 +1,32 @@
+name,quantity,price_range_low,price_range_high,distribution,compulsory,inclusion_percentage
+Paint,10,20,50,uniform,True,
+Tile,100,2,5,normal,False,50
+Cabinet,5,200,500,left-skewed,False,75
+Drywall,50,10,20,uniform,True,
+Flooring,30,3,8,uniform,True,
+Lighting Fixtures,8,50,150,normal,False,70
+Kitchen Countertop,1,1000,3000,uniform,True,
+Plumbing Fixtures,5,100,300,normal,False,60
+Windows,10,200,600,left-skewed,True,
+Doors,6,150,300,uniform,False,80
+Electrical Wiring,200,1,3,uniform,True,
+Insulation,100,0.5,2.5,normal,True,
+Baseboards,80,1,2,right-skewed,True,
+Crown Molding,50,3,7,left-skewed,False,50
+Roofing Materials,10,200,400,normal,False,40
+Siding,40,10,30,uniform,True,
+Interior Trim,100,0.8,2.0,uniform,False,70
+Bathroom Vanity,2,400,800,left-skewed,True,
+Shower Enclosure,1,500,2000,normal,False,50
+Toilet,2,150,350,uniform,True,
+Bathtub,1,400,1500,normal,False,30
+Closet Shelving,5,50,150,right-skewed,True,
+Kitchen Backsplash,30,10,25,uniform,False,60
+Exterior Paint,20,15,40,uniform,True,
+Deck Materials,15,30,75,normal,False,35
+Garage Door,1,700,1500,normal,False,20
+Landscaping,50,5,15,right-skewed,False,50
+HVAC Installation,1,4000,7000,normal,False,30
+Appliances,5,300,2000,left-skewed,True,
+Labor Costs,200,30,60,normal,True,
+Permits,1,200,600,uniform,True,
