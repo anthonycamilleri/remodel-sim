@@ -9,7 +9,7 @@ COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the Python script and other necessary files into the Docker image
-COPY monte_carlo_simulation.py config.csv /app/
+COPY monte_carlo_simulation.py config_items.csv config_settings.csv /app/
 
 # Copy the Bash script to run the simulation
 COPY run_simulation.sh /app/
